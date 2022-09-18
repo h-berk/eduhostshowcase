@@ -1,10 +1,10 @@
 {
-  "name": "hasan0berk",
+  "name": "hasan-berk",
   "version": "0.0.0",
   "scripts": {
-    "dev": "hberk",
-    "build": "hberk build",
-    "preview": "hberk preview"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
     "sass": "^1.45.0",
