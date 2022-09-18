@@ -1,20 +1,14 @@
 {
-  "name": "DevFolio",
-  "version": "1.0.0",
-  "description": "<h1 align=\"center\"> ⚡️ DevFolio ⚡️</h1>",
-  "main": "index.js",
+  "name": "hasan0berk",
+  "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "hberk",
+    "build": "hberk build",
+    "preview": "hberk preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/h-berk/portfolio.git"
+  "devDependencies": {
+    "sass": "^1.45.0",
+    "vite": "^2.7.2"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/h-berk/portfolio/issues"
-  },
-  "homepage": "https://github.com/h-berk/portfolio#readme"
+  "dependencies": {}
 }
