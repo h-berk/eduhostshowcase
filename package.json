@@ -1,7 +1,11 @@
 {
   "name": "hasan-berk",
   "version": "0.0.0",
-  
+  "scripts": {
+    "dev": "node",
+    "build": "node build",
+    "preview": "node preview"
+  },
   "devDependencies": {
     "sass": "^1.45.0",
     "vite": "^2.7.2"
