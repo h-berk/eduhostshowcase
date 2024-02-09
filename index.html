@@ -4,27 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hasan | CS Student</title>
+    <title>EduHost - FYP</title>
 
     <meta name="Java" content="hberk, Hasan Berk, Computer Science" />
 
     <meta name="Third Year Computer Science Student" content="Hasan | CS Student" />
 
-    <link rel="icon" type="image/png" href="./assets/HBLogo.png" />
+    <link rel="icon" type="image/png" href="./assets/favicon.png" />
 
     <meta name="theme-color" content="#36d1dc" />
 
     <meta property="og:type" content="website" />
 
-    <meta property="og:url" content="https://hberk.com" />
+    <meta property="og:url" content="https://projectshowcase.eduhost.ie" />
 
-    <meta property="og:title" content="Hasan | CS Student" />
+    <meta property="og:title" content="EduHost" />
 
-    <meta property="og:description" content="Thanks for sharing my portfolio!" />
+    <meta property="og:description" content="Thanks for viewing EduHost" />
 
     <meta
       property="og:image"
-      content="./assets/HBLogo.png"
+      content="./assets/favicon.png"
     />
     <!-- link tags -->
     <link rel="stylesheet" href="./css/main.css" />
@@ -45,12 +45,12 @@
     <div id="hero">
       <section class="container">
         <h1 class="hero-title">
-          Hi, my name is <span class="text-color-main name">Hasan Berk</span>
+          Welcome to <span class="text-color-main name">EduHost</span>
           <br />
-          I'm a Computer Science Student.
+          Website Hosting for Students, by Students.
         </h1>
         <p class="hero-cta">
-          <a class="cta-btn cta-btn--hero" href="#about">About Me</a>
+          <a class="cta-btn cta-btn--hero" href="#projects">Project Showcase</a>
         </p>
       </section>
       <a href="#about" class="scroll-down-link" aria-label="scroll-down">
@@ -58,7 +58,43 @@
       ></a>
     </div>
     <!-- /END Hero Section -->
+    <!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Project Showcase</h2>
 
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title"><strong>Commerical Title: </strong>EduHost</h3>
+              <h3 class="project-wrapper__text-title"><strong>Academic Title: </strong>EduHost - A Student Website Hosting Platform Web Application powered by React and AWS.</h3>
+              <p class="project-wrapper__text-info">
+                EduHost is a website hosting platform for students to be able to showcase their projects and portfolios online in their own websites. The platform will allow students to sign up, and use the embedded tools to both build and deploy their own websites to build their online presence, all within the EduHost web application. The aim of EduHost is to cater for all students, regardless of their ability to code. They can use the built-in project website builder, or upload their own website files they coded themselves. EduHost is a cloud-based application, and by taking advantage of modern cloud computing technologies, it offers a seamless website hosting provider for students. All services used in the backend, as well as the React front end, are deployed through AWS, for high availability, reliability and security.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a href="https://github.com/h-berk/eduhost" target="_blank" class="cta-btn text-color-main"
+                  >GitHub Repository</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://github.com/h-berk/eduhost" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/app_logo.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
     <!-- About Section -->
     <section id="about">
       <div class="container">
@@ -67,22 +103,22 @@
           <div class="about-wrapper__image">
             <img
               class="img-fluid"
-              src="./assets/me.png"
+              src="./assets/me.JPG"
               alt="Profile Image"
             />
           </div>
           <div class="about-wrapper__info">
             <p class="about-wrapper__info-text">
-              I am a final year student studying BSc (Hons) in Computer Science, specialising in ‘Cloud & Networks' in SETU Waterford. 
-              Highly motivated and academically focused, I am always looking to expand and develop new and current skills. Achieved high grades in the Leaving Certificate, with a H1 in Computer Science.
-
+              <strong>Name:</strong> Hasan Berk
             </p>
             <p class="about-wrapper__info-text">
-              I have educational experience in Java, Terraform, Golang, React, Javascript, HTML + CSS, Linux Systems, Cisco, MySQL, and AWS. 
-              My modules this semester are Cloud Computing 1, Data Mining 1, Distributed Systems, Mobile App Development and Network & System Security. 
+              <strong>Student Number:</strong> 20093361
+            </p>
+            <p class="about-wrapper__info-text">
+            <strong>Course: </strong>Final year student in SETU Waterford studying Applied Computing in the Cloud & Networks Stream.
             </p>
             <span class="about-wrapper__cta">
-              <a href="mailto:hasanberk50@gmail.com" class="cta-btn cta-btn--resume">Request CV</a>
+              <a href="#projects" class="cta-btn cta-btn--resume">Project Showcase</a>
             </span>
           </div>
         </div>
@@ -90,83 +126,13 @@
     </section>
     <!-- /END About Section -->
 
-    <!--Projects Section-->
-    <section id="projects">
-      <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Projects</h2>
-
-          <!-- Each .row is a project -->
-          <article class="row">
-            <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">React App - Movie Database </h3>
-              <p class="project-wrapper__text-info">
-                Movie and TV Show database app, created using React and Node.
-                Ability to find movies, actors, tv shows and tag favourites / must watch.              
-                Can filter by typing and/or genre.              
-                Created using Javascript.
-              </p>
-              <div class="project-wrapper__text-btns">
-                <a href="https://github.com/h-berk/reactca" target="_blank" class="cta-btn text-color-main"
-                  >Source Code</a
-                >
-              </div>
-            </div>
-
-            <div class="project-wrapper__image">
-              <a href="https://github.com/h-berk/reactca" target="_blank" rel="noopener noreferrer">
-                <div class="thumbnail rounded">
-                  <img
-                    src="./assets/reactapp1.png"
-                    class="img-fluid"
-                    alt="Project Image"
-                  />
-                </div>
-              </a>
-            </div>
-          </article>
-          <!-- Each .row is a project -->
-          <article class="row">
-            <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">PCB Analyser</h3>
-              <p class="project-wrapper__text-info">
-                The app can modify an images pixels to change the tint of the image, aswell as make it grayscale.
-                It splits all the pixels into individual disjoint sets and uses a quick union-find algorithm to union disjoint sets within a specified colour group.
-                It can analyse components of a PCB by color of components, and label them automatically with preset values.
-                It can also look for individual components by clicking on one and matches with other components in the image.
-              </p>
-              <div class="project-wrapper__text-btns">
-                <a href="https://github.com/h-berk/PCBAnalyser" target="_blank" class="cta-btn text-color-main"
-                  >Source Code</a
-                >
-              </div>
-            </div>
-
-            <div class="project-wrapper__image">
-              <a href="https://github.com/h-berk/PCBAnalyser" target="_blank" rel="noopener noreferrer">
-                <div class="thumbnail rounded">
-                  <img
-                    src="./assets/PCBAnalyser.jpg"
-                    class="img-fluid"
-                    alt="Project Image"
-                  />
-                </div>
-              </a>
-            </div>
-          </article>
-          <!-- /END Project -->
-        </div>
-      </div>
-    </section>
-    <!-- End Projects Section -->
-
     <!-- Contact Section -->
     <section id="contact">
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper">
-          <p class="contact-wrapper__text">You can email me here!</p>
-          <a href="mailto:hasanberk50@gmail.com" class="cta-btn cta-btn--resume">Email</a>
+          <p class="contact-wrapper__text">You can email me below.</p>
+          <a href="mailto:20093361@mail.wit.ie" class="cta-btn cta-btn--resume">Email</a>
         </div>
       </div>
     </section>
